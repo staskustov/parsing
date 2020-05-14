@@ -21,7 +21,7 @@ if response.ok:
 
 pprint(f"Количество друзей {data['response']['count']}")
 
-with open('file.pdf','wb') as f:
+with open('file.txt','wb') as f:
     f.write(response.content)
 
 
